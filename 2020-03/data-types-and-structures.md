@@ -30,33 +30,33 @@
 
 Examples: 
 ```
-var name = “Bill”
+var name = 'Bill'
 var age = 32
 var isHuman = true
 var isDog = false
-var jibberish = ‘sdfgvhbjn’
+var jibberish = "sdfgvhbjn"
 ```
 
 ### `let`
 
 Examples: 
 ```
-let name = “Bill”
+let name = 'Bill'
 let age = 32
 let isHuman = true
 let isDog = false
-let sdfgvhbjn’ = ‘jibberish’
+let sdfgvhbjn = "jibberish"
 ```
 
 ### `const`
 
 Examples: 
 ```
-const name = “Bill”
+const name = 'Bill'
 const age = 32
 const isHuman = true
 const isDog = false
-const jibberish = ‘sdfghj’
+const jibberish = "sdfghj"
 ```
 
 ## JavaScript Primitives
@@ -76,9 +76,9 @@ const float = 78.6
 
 Examples: 
 ```
-const name = “Bill”
-const city = ‘Austin’
-const dog = ‘Zoe’
+const name = 'Bill'
+const city = `Austin`
+const dog = "Zoe"
 ```
 
 ### Boolean
@@ -99,6 +99,7 @@ const quarantineEndDate = undefined
 
 ### Null
 
+Examples
 ```
 const mikeBloombergsCompassion = null
 const outerSpace = null
@@ -109,11 +110,43 @@ const outerSpace = null
 ### Arrays
 
 An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value. 
+
 Each item in an array has a number attached to it, called a numeric index, that allows you to access it. In JavaScript, arrays start at index zero and can be manipulated with various methods.
+
+Examples
+```
+const states = ["Delaware", "Pennsylvania", "New Jersey"]
+const statesWithoutSpaces = ["Delaware","Pennsylvania","New Jersey"]
+const counting = [1, 2, 3, 4]
+const zeroBasedCounting = [0, 1, 2, 3, 4]
+const duplicateNumbers = [1, 1, 1]
+const booleans = [true, false, true, true, false]
+const undefinedValues = [undefined, undefined, undefined]
+const nullValues = [null, null, null]
+const mixedTypes = [1, 'string', true, undefined, null, false]
+```
 
 ### Objects AKA hash AKA dictionary
 
 Kay-value pairs
+
+
+Examples
+```
+const states = { de: "Delaware", pa: "Pennsylvania", nj: "New Jersey"}
+const counting = {"1": 1, "2": 2, "3": 3}
+const booleans = { "true": true, false: "false"}
+const undefinedValues = { "undefined": undefined, myWeightIn2021: undefined, yearWeGetFlyingCars: undefined }
+const nullValues = { "null": null, nihilism: null, outerSpace: null }
+const mixedTypes = { 
+  name: 'Bill', 
+  age: 32, 
+  isDog: false, 
+  isHuman: true, w
+  eightIn2021: undefined, 
+  lengthOfTail: null 
+}
+```
 
 #### References:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
