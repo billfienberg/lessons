@@ -117,6 +117,7 @@ Examples
 ```
 const states = ["Delaware", "Pennsylvania", "New Jersey"]
 const statesWithoutSpaces = ["Delaware","Pennsylvania","New Jersey"]
+const statesWithMixedStringOperators = ["Delaware",'Pennsylvania',`New Jersey`]
 const counting = [1, 2, 3, 4]
 const zeroBasedCounting = [0, 1, 2, 3, 4]
 const duplicateNumbers = [1, 1, 1]
