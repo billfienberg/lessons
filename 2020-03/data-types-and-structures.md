@@ -2,6 +2,8 @@
 
 ## Intro
 
+### Ask permission to record
+
 ### Background
 
 - I went to college for business, started learning on [Code Academy](https://www.codecademy.com/), used Excel at an internship, and then went to a coding bootcamp. 
