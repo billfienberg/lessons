@@ -1,6 +1,21 @@
 # Data Types and Data Structures
 
-## Set up
+## Intro
+
+### Background
+
+- I went to college for business, started learning on [Code Academy](https://www.codecademy.com/), used Excel at an internship, and then went to a coding bootcamp. 
+
+### Myths
+
+- You have to start when you're young
+  - Rebuttal: I didn't start learning my first programming language until I was 25.
+- You have to be really smart
+  - Rebuttal: I'm not allowed to use the oven, and I took this [picture in October 2019](https://photos.app.goo.gl/33DJ81t5S7TUixgA8).
+- You have to be good at math
+  - Rebuttal: I struggled with everything after basic algebra. 
+
+## Environment
 
 - Browser console:
   1.  Type about:blank in your URL bar, and hit enter
