@@ -26,9 +26,24 @@
 
 ## JavaScript Variables
 
-### `var`
+### What is a variable?
 
-Examples: 
+A variable is a named location for storing a value. 
+
+### What is something I can do with a variable?
+
+You can print it on the screen. 
+
+For example:
+```
+const name = 'Bill'
+alert(name)
+```
+
+### Examples
+
+#### `var`
+
 ```
 var name = 'Bill'
 var age = 32
@@ -37,9 +52,8 @@ var isDog = false
 var jibberish = "sdfgvhbjn"
 ```
 
-### `let`
+#### `let`
 
-Examples: 
 ```
 let name = 'Bill'
 let age = 32
@@ -48,9 +62,8 @@ let isDog = false
 let sdfgvhbjn = "jibberish"
 ```
 
-### `const`
+#### `const`
 
-Examples: 
 ```
 const name = 'Bill'
 const age = 32
@@ -59,7 +72,7 @@ const isDog = false
 const jibberish = "sdfghj"
 ```
 
-## JavaScript Primitives
+## JavaScript primitives AKA data types
 
 ### Number
 
@@ -131,20 +144,19 @@ const mixedTypes = [1, 'string', true, undefined, null, false]
 
 Kay-value pairs
 
-
 Examples
 ```
 const states = { de: "Delaware", pa: "Pennsylvania", nj: "New Jersey"}
 const counting = {"1": 1, "2": 2, "3": 3}
-const booleans = { "true": true, false: "false"}
+const booleans = { "true": true, false: "false", isBillHuman: true, isBillDog: false }
 const undefinedValues = { "undefined": undefined, myWeightIn2021: undefined, yearWeGetFlyingCars: undefined }
 const nullValues = { "null": null, nihilism: null, outerSpace: null }
 const mixedTypes = { 
   name: 'Bill', 
   age: 32, 
   isDog: false, 
-  isHuman: true, w
-  eightIn2021: undefined, 
+  isHuman: true,
+  weightIn2021: undefined, 
   lengthOfTail: null 
 }
 ```
@@ -156,3 +168,4 @@ const mixedTypes = {
   - https://developer.mozilla.org/en-US/docs/Glossary/array
 - Objects
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+- https://developer.mozilla.org/en-US/docs/Glossary/Variable
