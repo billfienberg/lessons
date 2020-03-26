@@ -190,12 +190,21 @@ const album = {
 
 ### Array
 
-- Declare a variable named `people`, and set the value equal to an empty array
-- Access something in the array
-- Add something to the array
-- Insert something in the middle of the array
-- Modify soething in the array
-- Delete something from the array
+https://en.wikipedia.org/wiki/Tom_Petty_discography#Albums
+
+- Declare a variable named `albums`, and set the value equal to an empty array (`[]`)
+- Declare a variable named `fullMoonFever`, and set the value equal to `'Full Moon Fever'`
+- Declare a variable named `wilflowers`, and set the value equal to `'Wildflowers'`
+- Declare a variable named `highwayCompanion`, and set the value equal to `'Highway Companion'`
+- Add the `fullMoonFever` variable to the `albums` array
+- Add the `wilflowers` and `highwayCompanion` variables to the `albums` array
+- Access the first index of the `albums`
+- Access the last index of the `albums`
+- Access the middle index of the `albums`
+- Declare a variable named `intoTheGreatWideOpen`, and set the value equal to `'Into The Great Wide Open'`
+- Insert the `intoTheGreatWideOpen` variable after the `fullMoonFever` element
+- Update the value of the second element in the array so the word 'the' is lowercase instead of uppercase
+- Delete the second element in the array
 
 ### Object
 
