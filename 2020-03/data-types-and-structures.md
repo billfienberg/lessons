@@ -159,6 +159,31 @@ const mixedTypes = {
   weightIn2021: undefined, 
   lengthOfTail: null 
 }
+
+const person = {name: 'Bill', age: 32, isHuman: true}
+
+const book = {name: "Harry Potter and the Sorcerer's Stone", genre: 'fiction', pages: 309, author: 'J. K. Rowling'}
+
+const album = {
+  name: "Full Moon Fever", 
+  artist: "Tom Petty", 
+  numberOfTracks: 12, 
+  genre: 'rock' 
+  tracks: [
+    'Free Fallin', 
+    "I Won't Back Down", 
+    "Love Is a Long Road", 
+    "A Face in the Crowd",
+    "Runnin' Down a Dream",
+    "I'll Feel a Whole Better",
+    "Yer So Bad",
+    "Depending on You",
+    "The Apartment Song",
+    "Alright for Now",
+    "A Mind with a Heart of Its Own",
+    "Zombie Zoo"
+  ]
+}
 ```
 
 #### References:
