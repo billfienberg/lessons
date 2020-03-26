@@ -186,6 +186,25 @@ const album = {
 }
 ```
 
+## Exercises
+
+### Array
+
+- Declare a variable named `people`, and set the value equal to an empty array
+- Access something in the array
+- Add something to the array
+- Insert something in the middle of the array
+- Modify soething in the array
+- Delete something from the array
+
+### Object
+
+- Declare a variable named `dog`, and set the value equal to an empty object
+- Access a key
+- Add a key to the object
+- Modify an existing value
+- Delete a key
+
 #### References:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 - Arrays
