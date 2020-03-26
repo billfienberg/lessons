@@ -208,11 +208,21 @@ https://en.wikipedia.org/wiki/Tom_Petty_discography#Albums
 
 ### Object
 
-- Declare a variable named `dog`, and set the value equal to an empty object
-- Access a key
-- Add a key to the object
-- Modify an existing value
-- Delete a key
+1. Declare a variable named `newHope`, and set it equal to an empty object (`{}`)
+1. Declare a variable named `empireStrikesBack`, and set it equal to an empty object (`{}`)
+1. Declare a variable named `returnOfTheJedi`, and set it equal to an empty object (`{}`)
+1. Add a `name` key to the `newHope` object, and set the value equal to `Star Wars: Episode IV - A New Hope`
+1. Add a `name` key to the `empireStrikesBack` object, and set the value equal to `The Empire Strikes Back`
+1. Add a `name` key to the `returnOfTheJedi` object, and set the value equal to `Return of the Jedi`
+1. Declare a variable named `starWars`, and set the value equal to an empty object (`{}`)
+1. Add an `episode4` key to the `starWars` object, and set the value equal to `newHope` (the variable we created earlier)
+1. Add an `episode5` key to the `starWars` object, and set the value equal to `empireStrikesBack` (the variable we created earlier)
+1. Add an `episode6` key to the `starWars` object, and set the value equal to `returnOfTheJedi` (the variable we created earlier)
+1. Add an `episode1` key to the `starWars` object, and set the value equal to `{name: 'Star Wars: Episode I – The Phantom Menace', hasJarJar: true }`
+1. Add a `hasJarJar` key to the `episode4` object, and set the value equal to `false`
+1. Add a `hasJarJar` key to the `episode5` object, and set the value equal to `false`
+1. Add a `hasJarJar` key to the `episode6` object, and set the value equal to `false`
+1. Delete the `episode1` key from the `starWars` object
 
 #### References:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
